@@ -1,0 +1,1456 @@
+.desktop {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+.desktop .div {
+  background-color: #ffffff;
+  width: 1440px;
+  height: 919px;
+  position: relative;
+}
+
+.desktop .overlap {
+  position: absolute;
+  width: 1440px;
+  height: 60px;
+  top: 0;
+  left: 0;
+  background-color: #ffffff;
+}
+.desktop .site-icon {
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  top: 18px;
+  left: 100px;
+}
+/* BARRA: Botão Currículo */
+.desktop .curriculo-btn {
+  width: 152px;
+  gap: 6px;
+  left: 752px;
+  display: flex;
+  height: 35px;
+  align-items: center;
+  padding: 8px 13px;
+  position: absolute;
+  top: 13px;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+  overflow: hidden;
+}
+.desktop .crcl-icon {
+  position: relative;
+  width: 12.5px;
+  height: 12.5px;
+}
+.desktop .crcl-ttl {
+  position: relative;
+  width: 58px;
+  font-family: Inter;
+  font-weight: 500;
+  color: #000000;
+  font-size: 12.5px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+.desktop .crcl-frame {
+  display: flex;
+  width: 44px;
+  height: 17px;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 10px 13px;
+  position: relative;
+  margin-right: -0.5px;
+  background-color: #001f3f;
+  border-radius: 50px;
+  overflow: hidden;
+}
+.desktop .crcl-frame-txt {
+  position: relative;
+  width: fit-content;
+  margin-top: -13.5px;
+  margin-bottom: -9.5px;
+  margin-left: -10px;
+  margin-right: -10px;
+  font-family: Inter;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 10px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+/* BARRA: Botão Mensagens */
+.desktop .messages-btn {
+  width: 149px;
+  gap: 6px;
+  left: 919px;
+  display: flex;
+  height: 35px;
+  align-items: center;
+  padding: 8px 13px;
+  position: absolute;
+  top: 13px;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+  overflow: hidden;
+}
+.desktop .msg-icon {
+  position: relative;
+  width: 12.5px;
+  height: 12.5px;
+}
+.desktop .msg-ttl {
+  position: relative;
+  width: 58px;
+  font-family: Inter;
+  font-weight: 500;
+  color: #ababab;
+  font-size: 12.5px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+.desktop .msg-frame {
+  width: 32px;
+  height: 17px;
+  position: relative;
+  margin-right: -3.5px;
+  background-color: #ababab;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 10px 13px;
+  border-radius: 50px;
+  overflow: hidden;
+}
+.desktop .msg-frame-txt {
+  position: relative;
+  width: fit-content;
+  margin-top: -13.5px;
+  margin-bottom: -9.5px;
+  margin-left: -6.5px;
+  margin-right: -6.5px;
+  font-family: Inter;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 10px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+/* BARRA: Botão Candidaturas */
+.desktop .applications-btn {
+  width: 169px;
+  gap: 8px;
+  left: 1083px;
+  display: flex;
+  height: 35px;
+  align-items: center;
+  padding: 8px 13px;
+  position: absolute;
+  top: 13px;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+  overflow: hidden;
+}
+.desktop .apl-icon {
+  position: relative;
+  width: 12.5px;
+  height: 12.5px;
+}
+.desktop .apl-ttl {
+  position: relative;
+  width: 82px;
+  font-family: Inter;
+  font-weight: 500;
+  color: #3498db;
+  font-size: 12.5px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+.desktop .apl-frame {
+  width: 33px;
+  height: 17px;
+  position: relative;
+  margin-right: -0.5px;
+  background-color: #3498db;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 10px 13px;
+  border-radius: 50px;
+  overflow: hidden;
+}
+.desktop .apl-frame-txt {
+  position: relative;
+  width: fit-content;
+  margin-top: -13.5px;
+  margin-bottom: -9.5px;
+  margin-left: -8px;
+  margin-right: -8px;
+  font-family: Inter;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 10px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+/* BARRA: Botão Perfil */
+.desktop .perfil-btn {
+  display: flex;
+  width: 73px;
+  height: 35px;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  padding: 8px 10px;
+  position: absolute;
+  top: 13px;
+  left: 1267px;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+  overflow: hidden;
+}
+.desktop .perfil-icon {
+  position: relative;
+  width: 12.5px;
+  height: 12.5px;
+  margin-left: -1.25px;
+}
+.desktop .perfil-ttl {
+  position: relative;
+  width: 37px;
+  margin-right: -1.25px;
+  font-family: Inter;
+  font-weight: 500;
+  color: #000000;
+  font-size: 12.5px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+/* PESQUISA */
+.desktop .bem-vindo {
+  position: absolute;
+  width: 366px;
+  top: 121px;
+  left: 102px;
+  font-family: Inter;
+  font-weight: 700;
+  color: #000000;
+  font-size: 25.9px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.desktop .overlap-2 {
+  position: absolute;
+  width: 804px;
+  height: 60px;
+  top: 168px;
+  left: 102px;
+}
+.desktop .search-frame {
+  display: flex;
+  width: 456px;
+  max-height: 100px;
+  height: 60px;
+  align-items: center;
+  gap: 10px;
+  padding: 14px 19px 14px 35px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #f5f5f5;
+  border-radius: 50px;
+  overflow: hidden;
+}
+.desktop .search-txt {
+  position: relative;
+  width: fit-content;
+  font-family: Inter;
+  font-weight: 500;
+  color: #6c6a6a;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+.desktop .city-frame {
+  display: flex;
+  width: 403px;
+  height: 60px;
+  align-items: center;
+  gap: 15px;
+  padding: 24px 38px 24px 35px;
+  position: absolute;
+  top: 0;
+  left: 401px;
+  background-color: #3498db;
+  border-radius: 50px;
+  overflow: hidden;
+}
+.desktop .fi-rr-marker {
+  position: relative;
+  width: 15px;
+  height: 15px;
+  margin-top: -1.5px;
+  margin-bottom: -1.5px;
+}
+.desktop .city-txt {
+  position: relative;
+  width: fit-content;
+  margin-top: -5px;
+  margin-bottom: -1px;
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+/* CATEGORIAS */
+.desktop .category-txt {
+  position: absolute;
+  width: 416px;
+  top: 242px;
+  left: 100px;
+  font-family: Inter;
+  font-weight: 700;
+  color: #000000;
+  font-size: 25.9px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+.desktop .category-box-1 {
+  display: flex;
+  flex-direction: column;
+  width: 299px;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 28px 25px;
+  position: absolute;
+  top: 281px;
+  left: 100px;
+  background-color: #3498db;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.desktop .ctg-txt-1 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: Inter;
+  font-weight: 600;
+  color: #ffffff;
+  font-size: 21.6px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+.desktop .ctg-p-1 {
+  position: relative;
+  width: fit-content;
+  font-family: Inter;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+.desktop .category-box-2 {
+  left: 414px;
+  background-color: #001f3f;
+  display: flex;
+  flex-direction: column;
+  width: 299px;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 28px 25px;
+  position: absolute;
+  top: 281px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.desktop .ctg-txt-2 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: Inter;
+  font-weight: 600;
+  color: #ffffff;
+  font-size: 21.6px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+.desktop .ctg-p-2 {
+  position: relative;
+  width: fit-content;
+  font-family: Inter;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+.desktop .category-box-3 {
+  left: 728px;
+  background-color: #ababab;
+  display: flex;
+  flex-direction: column;
+  width: 299px;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 28px 25px;
+  position: absolute;
+  top: 281px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.desktop .ctg-txt-3 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: Inter;
+  font-weight: 600;
+  color: #ffffff;
+  font-size: 21.6px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+.desktop .ctg-p-3 {
+  position: relative;
+  width: fit-content;
+  font-family: Inter;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+.desktop .category-box-4 {
+  left: 1042px;
+  background-color: #3498db;
+  display: flex;
+  flex-direction: column;
+  width: 299px;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 28px 25px;
+  position: absolute;
+  top: 281px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.desktop .ctg-txt-4 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: Inter;
+  font-weight: 600;
+  color: #ffffff;
+  font-size: 21.6px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+.desktop .ctg-p-4 {
+  position: relative;
+  width: fit-content;
+  font-family: Inter;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.desktop .title-2 {
+  position: absolute;
+  width: 550px;
+  top: 407px;
+  left: 100px;
+  font-family: Inter;
+  font-weight: 700;
+  color: #000000;
+  font-size: 25.9px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+.desktop .job-1 {
+  position: absolute;
+  width: 411px;
+  height: 150px;
+  top: 446px;
+  left: 100px;
+}
+.desktop .overlap-group-1 {
+  position: relative;
+  width: 403px;
+  height: 150px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  border: 1px solid;
+  border-color: #ededed;
+}
+.desktop .details-button-1 {
+  display: flex;
+  width: 100px;
+  height: 30px;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 5px 6px;
+  position: absolute;
+  top: 95px;
+  left: 279px;
+  background-color: #001f3f;
+  border-radius: 50px;
+  overflow: hidden;
+}
+.desktop .details-txt-1 {
+  position: relative;
+  width: fit-content;
+  margin-top: -8.5px;
+  margin-bottom: -4.5px;
+  margin-left: -7.5px;
+  margin-right: -7.5px;
+  font-family: Inter;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 12.5px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+.desktop .job-txt-1 {
+  position: absolute;
+  top: 15px;
+  left: 70px;
+  font-family: Inter;
+  font-weight: 600;
+  color: #000000;
+  font-size: 21.6px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+.desktop .company-txt-1 {
+  position: absolute;
+  top: 41px;
+  left: 70px;
+  font-family: Inter;
+  font-weight: 500;
+  color: #6c6a6a;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+.desktop .location-1 {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  position: absolute;
+  top: 70px;
+  left: 17px;
+}
+.desktop .location-icon-1 {
+  position: relative;
+  width: 12.5px;
+  height: 12.5px;
+}
+.desktop .location-txt-1 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: Inter;
+  font-weight: 500;
+  color: #000000;
+  font-size: 12.5px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+.desktop .job-icon-1 {
+  position: absolute;
+  width: 45px;
+  height: 45px;
+  top: 15px;
+  left: 16px;
+  background-color: #ffffff;
+  border-radius: 22.5px;
+  border: 1px solid;
+  border-color: #ededed;
+}
+.desktop .job-desc-1 {
+  position: absolute;
+  top: 90px;
+  left: 17px;
+  font-family: Inter;
+  font-weight: 500;
+  color: #000000;
+  font-size: 12.5px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+.desktop .job-time-1 {
+  position: absolute;
+  top: 22px;
+  left: 309px;
+  font-family: Inter;
+  font-weight: 500;
+  color: #6c6a6a;
+  font-size: 12.5px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+.desktop .salary-1 {
+  display: inline-flex;
+  height: 15px;
+  align-items: center;
+  gap: 8px;
+  position: absolute;
+  top: 113px;
+  left: 16px;
+}
+.desktop .fi-rr-dollar {
+  position: relative;
+  width: 15px;
+  height: 15px;
+}
+.desktop .salary-txt-1 {
+  position: relative;
+  width: fit-content;
+  margin-top: -2.5px;
+  margin-bottom: -0.5px;
+  font-family: Inter;
+  font-weight: 500;
+  color: #3498db;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.desktop .job-2 {
+  position: absolute;
+  width: 411px;
+  height: 150px;
+  top: 446px;
+  left: 519px;
+}
+.desktop .overlap-group-2 {
+  position: relative;
+  width: 403px;
+  height: 150px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  border: 1px solid;
+  border-color: #ededed;
+}
+.desktop .details-button-2 {
+  display: flex;
+  width: 100px;
+  height: 30px;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 5px 6px;
+  position: absolute;
+  top: 95px;
+  left: 279px;
+  background-color: #001f3f;
+  border-radius: 50px;
+  overflow: hidden;
+}
+.desktop .details-txt-2 {
+  position: relative;
+  width: fit-content;
+  margin-top: -8.5px;
+  margin-bottom: -4.5px;
+  margin-left: -7.5px;
+  margin-right: -7.5px;
+  font-family: Inter;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 12.5px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+.desktop .job-txt-2 {
+  position: absolute;
+  top: 15px;
+  left: 70px;
+  font-family: Inter;
+  font-weight: 600;
+  color: #000000;
+  font-size: 21.6px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+.desktop .company-txt-2 {
+  position: absolute;
+  top: 41px;
+  left: 70px;
+  font-family: Inter;
+  font-weight: 500;
+  color: #6c6a6a;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+.desktop .location-2 {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  position: absolute;
+  top: 70px;
+  left: 17px;
+}
+.desktop .location-icon-2 {
+  position: relative;
+  width: 12.5px;
+  height: 12.5px;
+}
+.desktop .location-txt-2 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: Inter;
+  font-weight: 500;
+  color: #000000;
+  font-size: 12.5px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+.desktop .job-icon-2 {
+  position: absolute;
+  width: 45px;
+  height: 45px;
+  top: 15px;
+  left: 16px;
+  background-color: #ffffff;
+  border-radius: 22.5px;
+  border: 1px solid;
+  border-color: #ededed;
+}
+.desktop .job-desc-2 {
+  position: absolute;
+  top: 90px;
+  left: 17px;
+  font-family: Inter;
+  font-weight: 500;
+  color: #000000;
+  font-size: 12.5px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+.desktop .job-time-2 {
+  position: absolute;
+  top: 22px;
+  left: 309px;
+  font-family: Inter;
+  font-weight: 500;
+  color: #6c6a6a;
+  font-size: 12.5px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+.desktop .salary-2 {
+  display: inline-flex;
+  height: 15px;
+  align-items: center;
+  gap: 8px;
+  position: absolute;
+  top: 113px;
+  left: 16px;
+}
+.desktop .fi-rr-dollar {
+  position: relative;
+  width: 15px;
+  height: 15px;
+}
+.desktop .salary-txt-2 {
+  position: relative;
+  width: fit-content;
+  margin-top: -2.5px;
+  margin-bottom: -0.5px;
+  font-family: Inter;
+  font-weight: 500;
+  color: #3498db;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+.desktop .job-3 {
+  position: absolute;
+  width: 411px;
+  height: 150px;
+  top: 446px;
+  left: 938px;
+}
+.desktop .overlap-group-3 {
+  position: relative;
+  width: 403px;
+  height: 150px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  border: 1px solid;
+  border-color: #ededed;
+}
+.desktop .details-button-3 {
+  display: flex;
+  width: 100px;
+  height: 30px;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 5px 6px;
+  position: absolute;
+  top: 95px;
+  left: 279px;
+  background-color: #001f3f;
+  border-radius: 50px;
+  overflow: hidden;
+}
+.desktop .details-txt-3 {
+  position: relative;
+  width: fit-content;
+  margin-top: -8.5px;
+  margin-bottom: -4.5px;
+  margin-left: -7.5px;
+  margin-right: -7.5px;
+  font-family: Inter;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 12.5px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+.desktop .job-txt-3 {
+  position: absolute;
+  top: 15px;
+  left: 70px;
+  font-family: Inter;
+  font-weight: 600;
+  color: #000000;
+  font-size: 21.6px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+.desktop .company-txt-3 {
+  position: absolute;
+  top: 41px;
+  left: 70px;
+  font-family: Inter;
+  font-weight: 500;
+  color: #6c6a6a;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+.desktop .location-3 {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  position: absolute;
+  top: 70px;
+  left: 17px;
+}
+.desktop .location-icon-3 {
+  position: relative;
+  width: 12.5px;
+  height: 12.5px;
+}
+.desktop .location-txt-3 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: Inter;
+  font-weight: 500;
+  color: #000000;
+  font-size: 12.5px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+.desktop .job-icon-3 {
+  position: absolute;
+  width: 45px;
+  height: 45px;
+  top: 15px;
+  left: 16px;
+  background-color: #ffffff;
+  border-radius: 22.5px;
+  border: 1px solid;
+  border-color: #ededed;
+}
+.desktop .job-desc-3 {
+  position: absolute;
+  top: 90px;
+  left: 17px;
+  font-family: Inter;
+  font-weight: 500;
+  color: #000000;
+  font-size: 12.5px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+.desktop .job-time-3 {
+  position: absolute;
+  top: 22px;
+  left: 309px;
+  font-family: Inter;
+  font-weight: 500;
+  color: #6c6a6a;
+  font-size: 12.5px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+.desktop .salary-3 {
+  display: inline-flex;
+  height: 15px;
+  align-items: center;
+  gap: 8px;
+  position: absolute;
+  top: 113px;
+  left: 16px;
+}
+.desktop .fi-rr-dollar {
+  position: relative;
+  width: 15px;
+  height: 15px;
+}
+.desktop .salary-txt-3 {
+  position: relative;
+  width: fit-content;
+  margin-top: -2.5px;
+  margin-bottom: -0.5px;
+  font-family: Inter;
+  font-weight: 500;
+  color: #3498db;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.desktop .title-3 {
+  position: absolute;
+  width: 550px;
+  top: 622px;
+  left: 100px;
+  font-family: Inter;
+  font-weight: 700;
+  color: #000000;
+  font-size: 25.9px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+.desktop .job-4 {
+  position: absolute;
+  width: 411px;
+  height: 150px;
+  top: 661px;
+  left: 100px;
+}
+.desktop .overlap-group-4 {
+  position: relative;
+  width: 403px;
+  height: 150px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  border: 1px solid;
+  border-color: #ededed;
+}
+.desktop .details-button-4 {
+  display: flex;
+  width: 100px;
+  height: 30px;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 5px 6px;
+  position: absolute;
+  top: 95px;
+  left: 279px;
+  background-color: #001f3f;
+  border-radius: 50px;
+  overflow: hidden;
+}
+.desktop .details-txt-4 {
+  position: relative;
+  width: fit-content;
+  margin-top: -8.5px;
+  margin-bottom: -4.5px;
+  margin-left: -7.5px;
+  margin-right: -7.5px;
+  font-family: Inter;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 12.5px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+.desktop .job-txt-4 {
+  position: absolute;
+  top: 15px;
+  left: 70px;
+  font-family: Inter;
+  font-weight: 600;
+  color: #000000;
+  font-size: 21.6px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+.desktop .company-txt-4 {
+  position: absolute;
+  top: 41px;
+  left: 70px;
+  font-family: Inter;
+  font-weight: 500;
+  color: #6c6a6a;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+.desktop .location-4 {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  position: absolute;
+  top: 70px;
+  left: 17px;
+}
+.desktop .location-icon-4 {
+  position: relative;
+  width: 12.5px;
+  height: 12.5px;
+}
+.desktop .location-txt-4 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: Inter;
+  font-weight: 500;
+  color: #000000;
+  font-size: 12.5px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+.desktop .job-icon-4 {
+  position: absolute;
+  width: 45px;
+  height: 45px;
+  top: 15px;
+  left: 16px;
+  background-color: #ffffff;
+  border-radius: 22.5px;
+  border: 1px solid;
+  border-color: #ededed;
+}
+.desktop .job-desc-4 {
+  position: absolute;
+  top: 90px;
+  left: 17px;
+  font-family: Inter;
+  font-weight: 500;
+  color: #000000;
+  font-size: 12.5px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+.desktop .job-time-4 {
+  position: absolute;
+  top: 22px;
+  left: 309px;
+  font-family: Inter;
+  font-weight: 500;
+  color: #6c6a6a;
+  font-size: 12.5px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+.desktop .salary-4 {
+  display: inline-flex;
+  height: 15px;
+  align-items: center;
+  gap: 8px;
+  position: absolute;
+  top: 113px;
+  left: 16px;
+}
+.desktop .fi-rr-dollar {
+  position: relative;
+  width: 15px;
+  height: 15px;
+}
+.desktop .salary-txt-4 {
+  position: relative;
+  width: fit-content;
+  margin-top: -2.5px;
+  margin-bottom: -0.5px;
+  font-family: Inter;
+  font-weight: 500;
+  color: #3498db;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.desktop .job-5 {
+  position: absolute;
+  width: 411px;
+  height: 150px;
+  top: 661px;
+  left: 519px;
+}
+.desktop .overlap-group-5 {
+  position: relative;
+  width: 403px;
+  height: 150px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  border: 1px solid;
+  border-color: #ededed;
+}
+.desktop .details-button-5 {
+  display: flex;
+  width: 100px;
+  height: 30px;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 5px 6px;
+  position: absolute;
+  top: 95px;
+  left: 279px;
+  background-color: #001f3f;
+  border-radius: 50px;
+  overflow: hidden;
+}
+.desktop .details-txt-5 {
+  position: relative;
+  width: fit-content;
+  margin-top: -8.5px;
+  margin-bottom: -4.5px;
+  margin-left: -7.5px;
+  margin-right: -7.5px;
+  font-family: Inter;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 12.5px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+.desktop .job-txt-5 {
+  position: absolute;
+  top: 15px;
+  left: 70px;
+  font-family: Inter;
+  font-weight: 600;
+  color: #000000;
+  font-size: 21.6px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+.desktop .company-txt-5 {
+  position: absolute;
+  top: 41px;
+  left: 70px;
+  font-family: Inter;
+  font-weight: 500;
+  color: #6c6a6a;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+.desktop .location-5 {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  position: absolute;
+  top: 70px;
+  left: 17px;
+}
+.desktop .location-icon-5 {
+  position: relative;
+  width: 12.5px;
+  height: 12.5px;
+}
+.desktop .location-txt-5 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: Inter;
+  font-weight: 500;
+  color: #000000;
+  font-size: 12.5px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+.desktop .job-icon-5 {
+  position: absolute;
+  width: 45px;
+  height: 45px;
+  top: 15px;
+  left: 16px;
+  background-color: #ffffff;
+  border-radius: 22.5px;
+  border: 1px solid;
+  border-color: #ededed;
+}
+.desktop .job-desc-5 {
+  position: absolute;
+  top: 90px;
+  left: 17px;
+  font-family: Inter;
+  font-weight: 500;
+  color: #000000;
+  font-size: 12.5px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+.desktop .job-time-5 {
+  position: absolute;
+  top: 22px;
+  left: 309px;
+  font-family: Inter;
+  font-weight: 500;
+  color: #6c6a6a;
+  font-size: 12.5px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+.desktop .salary-5 {
+  display: inline-flex;
+  height: 15px;
+  align-items: center;
+  gap: 8px;
+  position: absolute;
+  top: 113px;
+  left: 16px;
+}
+.desktop .fi-rr-dollar {
+  position: relative;
+  width: 15px;
+  height: 15px;
+}
+.desktop .salary-txt-5 {
+  position: relative;
+  width: fit-content;
+  margin-top: -2.5px;
+  margin-bottom: -0.5px;
+  font-family: Inter;
+  font-weight: 500;
+  color: #3498db;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+.desktop .job-6 {
+  position: absolute;
+  width: 411px;
+  height: 150px;
+  top: 661px;
+  left: 938px;
+}
+.desktop .overlap-group-6 {
+  position: relative;
+  width: 403px;
+  height: 150px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  border: 1px solid;
+  border-color: #ededed;
+}
+.desktop .details-button-6 {
+  display: flex;
+  width: 100px;
+  height: 30px;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 5px 6px;
+  position: absolute;
+  top: 95px;
+  left: 279px;
+  background-color: #001f3f;
+  border-radius: 50px;
+  overflow: hidden;
+}
+.desktop .details-txt-6 {
+  position: relative;
+  width: fit-content;
+  margin-top: -8.5px;
+  margin-bottom: -4.5px;
+  margin-left: -7.5px;
+  margin-right: -7.5px;
+  font-family: Inter;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 12.5px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+.desktop .job-txt-6 {
+  position: absolute;
+  top: 15px;
+  left: 70px;
+  font-family: Inter;
+  font-weight: 600;
+  color: #000000;
+  font-size: 21.6px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+.desktop .company-txt-6 {
+  position: absolute;
+  top: 41px;
+  left: 70px;
+  font-family: Inter;
+  font-weight: 500;
+  color: #6c6a6a;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+.desktop .location-6 {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  position: absolute;
+  top: 70px;
+  left: 17px;
+}
+.desktop .location-icon-6 {
+  position: relative;
+  width: 12.5px;
+  height: 12.5px;
+}
+.desktop .location-txt-6 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: Inter;
+  font-weight: 500;
+  color: #000000;
+  font-size: 12.5px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+.desktop .job-icon-6 {
+  position: absolute;
+  width: 45px;
+  height: 45px;
+  top: 15px;
+  left: 16px;
+  background-color: #ffffff;
+  border-radius: 22.5px;
+  border: 1px solid;
+  border-color: #ededed;
+}
+.desktop .job-desc-6 {
+  position: absolute;
+  top: 90px;
+  left: 17px;
+  font-family: Inter;
+  font-weight: 500;
+  color: #000000;
+  font-size: 12.5px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+.desktop .job-time-6 {
+  position: absolute;
+  top: 22px;
+  left: 309px;
+  font-family: Inter;
+  font-weight: 500;
+  color: #6c6a6a;
+  font-size: 12.5px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+.desktop .salary-6 {
+  display: inline-flex;
+  height: 15px;
+  align-items: center;
+  gap: 8px;
+  position: absolute;
+  top: 113px;
+  left: 16px;
+}
+.desktop .fi-rr-dollar {
+  position: relative;
+  width: 15px;
+  height: 15px;
+}
+.desktop .salary-txt-6 {
+  position: relative;
+  width: fit-content;
+  margin-top: -2.5px;
+  margin-bottom: -0.5px;
+  font-family: Inter;
+  font-weight: 500;
+  color: #3498db;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}

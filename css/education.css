@@ -1,0 +1,904 @@
+.desktop {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+.desktop .div {
+  background-color: #ffffff;
+  width: 1440px;
+  height: 2536px;
+  position: relative;
+}
+.desktop .overlap {
+  position: absolute;
+  width: 1440px;
+  height: 60px;
+  top: 0;
+  left: 0;
+  background-color: #ffffff;
+}
+.desktop .site-icon {
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  top: 18px;
+  left: 100px;
+}
+/* BARRA: Botão Currículo */
+.desktop .curriculo-btn {
+  width: 87px;
+  gap: 6px;
+  left: 1001px;
+  display: flex;
+  height: 35px;
+  align-items: center;
+  padding: 8px 13px;
+  position: absolute;
+  top: 13px;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+  overflow: hidden;
+}
+.desktop .crcl-icon {
+  position: relative;
+  width: 12.5px;
+  height: 12.5px;
+}
+.desktop .crcl-frame {
+  display: flex;
+  width: 44px;
+  height: 17px;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 10px 13px;
+  position: relative;
+  margin-right: -0.5px;
+  background-color: #001f3f;
+  border-radius: 50px;
+  overflow: hidden;
+}
+.desktop .crcl-frame-txt {
+  position: relative;
+  width: fit-content;
+  margin-top: -13.5px;
+  margin-bottom: -9.5px;
+  margin-left: -10px;
+  margin-right: -10px;
+  font-family: Inter;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 10px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+/* BARRA: Botão Mensagens */
+.desktop .messages-btn {
+  width: 75px;
+  gap: 6px;
+  left: 1106px;
+  display: flex;
+  height: 35px;
+  align-items: center;
+  padding: 8px 13px;
+  position: absolute;
+  top: 13px;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+  overflow: hidden;
+}
+.desktop .msg-icon {
+  position: relative;
+  width: 12.5px;
+  height: 12.5px;
+}
+.desktop .msg-frame {
+  width: 32px;
+  height: 17px;
+  position: relative;
+  margin-right: -3.5px;
+  background-color: #ababab;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 10px 13px;
+  border-radius: 50px;
+  overflow: hidden;
+}
+.desktop .msg-frame-txt {
+  position: relative;
+  width: fit-content;
+  margin-top: -13.5px;
+  margin-bottom: -9.5px;
+  margin-left: -6.5px;
+  margin-right: -6.5px;
+  font-family: Inter;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 10px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+/* BARRA: Botão Candidaturas */
+.desktop .applications-btn {
+  width: 75px;
+  gap: 8px;
+  left: 1199px;
+  display: flex;
+  height: 35px;
+  align-items: center;
+  padding: 8px 13px;
+  position: absolute;
+  top: 13px;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+  overflow: hidden;
+}
+.desktop .apl-icon {
+  position: relative;
+  width: 12.5px;
+  height: 12.5px;
+}
+.desktop .apl-frame {
+  width: 33px;
+  height: 17px;
+  position: relative;
+  margin-right: -0.5px;
+  background-color: #3498db;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 10px 13px;
+  border-radius: 50px;
+  overflow: hidden;
+}
+.desktop .apl-frame-txt {
+  position: relative;
+  width: fit-content;
+  margin-top: -13.5px;
+  margin-bottom: -9.5px;
+  margin-left: -8px;
+  margin-right: -8px;
+  font-family: Inter;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 10px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+/* BARRA: Botão Perfil */
+.desktop .perfil-btn {
+  display: flex;
+  width: 48px;
+  height: 35px;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  padding: 8px 10px;
+  position: absolute;
+  top: 13px;
+  left: 1292px;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+  overflow: hidden;
+}
+.desktop .perfil-icon {
+  position: relative;
+  width: 12.5px;
+  height: 12.5px;
+  margin-left: -1.25px;
+}
+/* PRÓXIMA SEÇÃO */
+.desktop .page-ttl {
+  color: #000;
+  font-family: Inter;
+  font-size: 25.92px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  position: absolute;
+  top: 88px;
+  left: 100px;
+}
+
+.desktop .page-bar {
+  position: absolute;
+  width: 1190px;
+  height: 49px;
+  top: 147px;
+  left: 125px;
+}
+.desktop .data-frame {
+  position: absolute;
+  display: flex;
+  width: 269px;
+  padding: 16px;
+  align-items: center;
+  gap: 14px;
+  border-radius: 10px;
+  border: 1px solid #eee;
+  background: #ffffff;
+}
+.desktop .data-txt {
+  color: #6c6a6a;
+  text-align: center;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.desktop .school-frame {
+  display: flex;
+  width: 269px;
+  padding: 16px;
+  align-items: center;
+  gap: 14px;
+  border-radius: 10px;
+  border: 1px solid #eee;
+  background: #3498db;
+  position: absolute;
+  top: 0;
+  left: 307px;
+}
+.desktop .school-txt {
+  color: #ffffff;
+  text-align: center;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.desktop .prf-exp-frame {
+  display: flex;
+  width: 269px;
+  padding: 16px;
+  align-items: center;
+  gap: 14px;
+  border-radius: 10px;
+  border: 1px solid #eee;
+  background: #fff;
+  position: absolute;
+  top: 0;
+  left: 614px;
+}
+.desktop .prf-exp-txt {
+  color: #6c6a6a;
+  text-align: center;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.desktop .skills-frame {
+  display: flex;
+  width: 269px;
+  padding: 16px;
+  align-items: center;
+  gap: 14px;
+  border-radius: 10px;
+  border: 1px solid #eee;
+  background: #fff;
+  position: absolute;
+  top: 0;
+  left: 921px;
+}
+.desktop .skills-txt {
+  color: #6c6a6a;
+  text-align: center;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+/* FORMULÁRIO */
+.desktop .overlap-group {
+  position: absolute;
+  width: 1240px;
+  height: 2069px;
+  top: 220px;
+  left: 100px;
+  border-radius: 10px;
+}
+.desktop .form-box {
+  width: 1240px;
+  height: 2069px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  border: 1px solid #eee;
+  background: #fff;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
+/* ENSINO MÉDIO */
+.desktop .high-school-ttl {
+  color: #000;
+  font-family: Inter;
+  font-size: 25.92px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  position: absolute;
+  top: 39px;
+  left: 31px;
+}
+.desktop .inst-ttl-1 {
+  color: #000;
+  font-family: Inter;
+  font-size: 21.6px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  position: absolute;
+  top: 95px;
+  left: 31px;
+}
+.desktop .inst-frame-1 {
+  display: flex;
+  width: 1119px;
+  padding: 14px 19px;
+  align-items: center;
+  gap: 10px;
+  border-radius: 10px;
+  background: #f5f5f5;
+  position: absolute;
+  top: 134px;
+  left: 31px;
+}
+.desktop .frame-txt {
+  color: #6c6a6a;
+  font-family: Inter;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  position: relative;
+}
+.desktop .status-ttl-1 {
+  color: #000;
+  font-family: Inter;
+  font-size: 21.6px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  position: absolute;
+  top: 207px;
+  left: 31px;
+}
+.desktop .status-frame-1 {
+  display: flex;
+  width: 433px;
+  padding: 14px 19px;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 326px;
+  border-radius: 10px;
+  background: #f5f5f5;
+  position: absolute;
+  top: 246px;
+  left: 31px;
+}
+.desktop .period-ttl-1 {
+  color: #000;
+  font-family: Inter;
+  font-size: 21.6px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  position: absolute;
+  top: 207px;
+  left: 521px;
+}
+.desktop .period-frame-1 {
+  display: flex;
+  width: 433px;
+  padding: 14px 19px;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 225px;
+  border-radius: 10px;
+  background: #f5f5f5;
+  position: absolute;
+  top: 246px;
+  left: 521px;
+}
+.desktop .calendar-icon {
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
+  position: relative;
+}
+.desktop .line {
+  width: 1240.106px;
+  height: 1px;
+  background: #eee;
+  position: absolute;
+  top: 337px;
+  left: 0;
+}
+
+/* GRADUAÇÃO */
+.desktop .grad-ttl {
+  color: #000;
+  font-family: Inter;
+  font-size: 25.92px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  position: absolute;
+  top: 377px;
+  left: 31px;
+}
+.desktop .cross-1 {
+  position: absolute;
+  top: 379px;
+  left: 1185px;
+}
+.desktop .course-ttl {
+  color: #000;
+  font-family: Inter;
+  font-size: 21.6px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  position: absolute;
+  top: 433px;
+  left: 31px;
+}
+.desktop .course-frame {
+  display: flex;
+  width: 1119px;
+  padding: 14px 19px;
+  align-items: center;
+  gap: 10px;
+  border-radius: 10px;
+  background: #f5f5f5;
+  position: absolute;
+  top: 472px;
+  left: 31px;
+}
+.desktop .course-txt {
+  color: #6c6a6a;
+  font-family: Inter;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  position: relative;
+}
+.desktop .inst-ttl-2 {
+  color: #000;
+  font-family: Inter;
+  font-size: 21.6px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  position: absolute;
+  top: 545px;
+  left: 31px;
+}
+.desktop .inst-frame-2 {
+  display: flex;
+  width: 1119px;
+  padding: 14px 19px;
+  align-items: center;
+  gap: 10px;
+  border-radius: 10px;
+  background: #f5f5f5;
+  position: absolute;
+  top: 584px;
+  left: 31px;
+}
+.desktop .inst-txt-2 {
+  color: #6c6a6a;
+  font-family: Inter;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  position: relative;
+}
+.desktop .status-ttl-2 {
+  color: #000;
+  font-family: Inter;
+  font-size: 21.6px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  position: absolute;
+  top: 657px;
+  left: 31px;
+}
+.desktop .status-frame-2 {
+  display: flex;
+  width: 433px;
+  padding: 14px 19px;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 326px;
+  border-radius: 10px;
+  background: #f5f5f5;
+  position: absolute;
+  top: 696px;
+  left: 31px;
+}
+.desktop .period-ttl-2 {
+  color: #000;
+  font-family: Inter;
+  font-size: 21.6px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  position: absolute;
+  top: 650px;
+  left: 521px;
+}
+.desktop .period-frame-2 {
+  display: flex;
+  width: 433px;
+  padding: 14px 19px;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 225px;
+  border-radius: 10px;
+  background: #f5f5f5;
+  position: absolute;
+  top: 696px;
+  left: 521px;
+}
+.desktop .add-graduation {
+  display: inline-flex;
+  padding: 16px;
+  justify-content: center;
+  align-items: center;
+  gap: 14px;
+  border-radius: 10px;
+  border: 1px solid #eee;
+  background: #fafafa;
+  position: absolute;
+  top: 787px;
+  left: 31px;
+}
+.desktop .add-icon {
+  width: 15px;
+  height: 15px;
+  background-color: #001f3f;
+  border-radius: 17.5px;
+  background-image: url(https://c.animaapp.com/pNNkzp0z/img/fi-rr-plus-small-2.svg);
+  position: relative;
+  background-size: 100% 100%;
+}
+.desktop .add-txt {
+  color: #000;
+  text-align: center;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  position: relative;
+}
+.desktop .line-2 {
+  width: 1240.106px;
+  height: 1px;
+  background: #eee;
+  position: absolute;
+  top: 880px;
+  left: 0;
+}
+/* PÓS GRADUAÇÃO */
+.desktop .post-ttl {
+  color: #000;
+  font-family: Inter;
+  font-size: 25.92px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  position: absolute;
+  top: 920px;
+  left: 31px;
+}
+.desktop .cross-2 {
+  position: absolute;
+  top: 922px;
+  left: 1185px;
+}
+.desktop .post-type-ttl {
+  color: #000;
+  font-family: Inter;
+  font-size: 21.6px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  position: absolute;
+  top: 976px;
+  left: 31px;
+}
+.desktop .post-type-frame {
+  display: flex;
+  width: 433px;
+  padding: 14px 19px;
+  align-items: center;
+  gap: 341px;
+  border-radius: 10px;
+  background: #f5f5f5;
+  position: absolute;
+  top: 1015px;
+  left: 31px;
+}
+.desktop .course-ttl-2 {
+  color: #000;
+  font-family: Inter;
+  font-size: 21.6px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  position: absolute;
+  top: 1088px;
+  left: 31px;
+}
+.desktop .course-frame-2 {
+  display: flex;
+  width: 1119px;
+  padding: 14px 19px;
+  align-items: center;
+  gap: 10px;
+  border-radius: 10px;
+  background: #f5f5f5;
+  position: absolute;
+  top: 1127px;
+  left: 31px;
+}
+.desktop .inst-ttl-3 {
+  color: #000;
+  font-family: Inter;
+  font-size: 21.6px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  position: absolute;
+  top: 1200px;
+  left: 31px;
+}
+.desktop .inst-frame-3 {
+  display: flex;
+  width: 1119px;
+  padding: 14px 19px;
+  align-items: center;
+  gap: 10px;
+  border-radius: 10px;
+  background: #f5f5f5;
+  position: absolute;
+  top: 1239px;
+  left: 31px;
+}
+.desktop .status-ttl-3 {
+  color: #000;
+  font-family: Inter;
+  font-size: 21.6px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  position: absolute;
+  top: 1312px;
+  left: 31px;
+}
+.desktop .status-frame-3 {
+  display: flex;
+  width: 433px;
+  padding: 14px 19px;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 326px;
+  border-radius: 10px;
+  background: #f5f5f5;
+  position: absolute;
+  top: 1351px;
+  left: 31px;
+}
+.desktop .period-ttl-3 {
+  color: #000;
+  font-family: Inter;
+  font-size: 21.6px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  position: absolute;
+  top: 1312px;
+  left: 521px;
+}
+.desktop .period-frame-3 {
+  display: flex;
+  width: 433px;
+  padding: 14px 19px;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 225px;
+  border-radius: 10px;
+  background: #f5f5f5;
+  position: absolute;
+  top: 1351px;
+  left: 521px;
+}
+.desktop .add-post {
+  display: inline-flex;
+  padding: 16px;
+  justify-content: center;
+  align-items: center;
+  gap: 14px;
+  border-radius: 10px;
+  border: 1px solid #eee;
+  background: #fafafa;
+  position: absolute;
+  top: 1442px;
+  left: 31px;
+}
+.desktop .line-3 {
+  width: 1240.106px;
+  height: 1px;
+  background: #eee;
+  position: absolute;
+  top: 1530px;
+  left: 0;
+}
+/* CURSOS COMPLEMENTÁRES */
+.desktop .comp-ttl {
+  color: #000;
+  font-family: Inter;
+  font-size: 25.92px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  position: absolute;
+  top: 1570px;
+  left: 31px;
+}
+.desktop .cross-3 {
+  position: absolute;
+  top: 1572px;
+  left: 1185px;
+}
+.desktop .course-ttl-3 {
+  color: #000;
+  font-family: Inter;
+  font-size: 21.6px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  position: absolute;
+  top: 1626px;
+  left: 31px;
+}
+.desktop .course-frame-3 {
+  display: flex;
+  width: 1119px;
+  padding: 14px 19px;
+  align-items: center;
+  gap: 10px;
+  border-radius: 10px;
+  background: #f5f5f5;
+  position: absolute;
+  top: 1665px;
+  left: 31px;
+}
+.desktop .inst-ttl-4 {
+  color: #000;
+  font-family: Inter;
+  font-size: 21.6px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  position: absolute;
+  top: 1738px;
+  left: 31px;
+}
+.desktop .inst-frame-4 {
+  display: flex;
+  width: 1119px;
+  padding: 14px 19px;
+  align-items: center;
+  gap: 10px;
+  border-radius: 10px;
+  background: #f5f5f5;
+  position: absolute;
+  top: 1777px;
+  left: 31px;
+}
+.desktop .status-ttl-4 {
+  color: #000;
+  font-family: Inter;
+  font-size: 21.6px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  position: absolute;
+  top: 1850px;
+  left: 31px;
+}
+.desktop .status-frame-4 {
+  display: flex;
+  width: 433px;
+  padding: 14px 19px;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 326px;
+  border-radius: 10px;
+  background: #f5f5f5;
+  position: absolute;
+  top: 1889px;
+  left: 31px;
+}
+.desktop .period-ttl-4 {
+  color: #000;
+  font-family: Inter;
+  font-size: 21.6px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  position: absolute;
+  top: 1843px;
+  left: 521px;
+}
+.desktop .period-frame-4 {
+  display: flex;
+  width: 433px;
+  padding: 14px 19px;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 225px;
+  border-radius: 10px;
+  background: #f5f5f5;
+  position: absolute;
+  top: 1889px;
+  left: 521px;
+}
+.desktop .add-comp-course {
+  display: inline-flex;
+  padding: 16px;
+  justify-content: center;
+  align-items: center;
+  gap: 14px;
+  border-radius: 10px;
+  border: 1px solid #eee;
+  background: #fafafa;
+  position: absolute;
+  top: 1980px;
+  left: 31px;
+}
+
+.desktop .next-button {
+  display: inline-flex;
+  padding: 14px 19px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 50px;
+  background: #3498db;
+  position: absolute;
+  top: 1979px;
+  left: 1105px;
+}
+.desktop .next-txt {
+  color: #fff;
+  text-align: center;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  position: relative;
+}

@@ -1,0 +1,682 @@
+.desktop {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+.desktop .div {
+  background-color: #ffffff;
+  width: 1440px;
+  height: 919px;
+  position: relative;
+}
+
+/* BARRA */
+.desktop .overlap {
+  position: absolute;
+  width: 1440px;
+  height: 60px;
+  top: 0;
+  left: 0;
+  background-color: #ffffff;
+}
+.desktop .site-icon {
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  top: 18px;
+  left: 100px;
+}
+/* BARRA: Botão Currículo */
+.desktop .curriculo-btn {
+  width: 87px;
+  gap: 6px;
+  left: 1001px;
+  display: flex;
+  height: 35px;
+  align-items: center;
+  padding: 8px 13px;
+  position: absolute;
+  top: 13px;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+  overflow: hidden;
+}
+.desktop .crcl-icon {
+  position: relative;
+  width: 12.5px;
+  height: 12.5px;
+}
+.desktop .crcl-frame {
+  display: flex;
+  width: 44px;
+  height: 17px;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 10px 13px;
+  position: relative;
+  margin-right: -0.5px;
+  background-color: #001f3f;
+  border-radius: 50px;
+  overflow: hidden;
+}
+.desktop .crcl-frame-txt {
+  position: relative;
+  width: fit-content;
+  margin-top: -13.5px;
+  margin-bottom: -9.5px;
+  margin-left: -10px;
+  margin-right: -10px;
+  font-family: Inter;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 10px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+/* BARRA: Botão Mensagens */
+.desktop .messages-btn {
+  width: 75px;
+  gap: 6px;
+  left: 1106px;
+  display: flex;
+  height: 35px;
+  align-items: center;
+  padding: 8px 13px;
+  position: absolute;
+  top: 13px;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+  overflow: hidden;
+}
+.desktop .msg-icon {
+  position: relative;
+  width: 12.5px;
+  height: 12.5px;
+}
+.desktop .msg-frame {
+  width: 32px;
+  height: 17px;
+  position: relative;
+  margin-right: -3.5px;
+  background-color: #ababab;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 10px 13px;
+  border-radius: 50px;
+  overflow: hidden;
+}
+.desktop .msg-frame-txt {
+  position: relative;
+  width: fit-content;
+  margin-top: -13.5px;
+  margin-bottom: -9.5px;
+  margin-left: -6.5px;
+  margin-right: -6.5px;
+  font-family: Inter;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 10px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+/* BARRA: Botão Candidaturas */
+.desktop .applications-btn {
+  width: 75px;
+  gap: 8px;
+  left: 1199px;
+  display: flex;
+  height: 35px;
+  align-items: center;
+  padding: 8px 13px;
+  position: absolute;
+  top: 13px;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+  overflow: hidden;
+}
+.desktop .apl-icon {
+  position: relative;
+  width: 12.5px;
+  height: 12.5px;
+}
+.desktop .apl-frame {
+  width: 33px;
+  height: 17px;
+  position: relative;
+  margin-right: -0.5px;
+  background-color: #3498db;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 10px 13px;
+  border-radius: 50px;
+  overflow: hidden;
+}
+.desktop .apl-frame-txt {
+  position: relative;
+  width: fit-content;
+  margin-top: -13.5px;
+  margin-bottom: -9.5px;
+  margin-left: -8px;
+  margin-right: -8px;
+  font-family: Inter;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 10px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+/* BARRA: Botão Perfil */
+.desktop .perfil-btn {
+  display: flex;
+  width: 48px;
+  height: 35px;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  padding: 8px 10px;
+  position: absolute;
+  top: 13px;
+  left: 1292px;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+  overflow: hidden;
+}
+.desktop .perfil-icon {
+  position: relative;
+  width: 12.5px;
+  height: 12.5px;
+  margin-left: -1.25px;
+}
+
+.desktop .pg-title {
+  color: #000;
+  font-family: Inter;
+  font-size: 25.92px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  position: absolute;
+  top: 88px;
+  left: 100px;
+}
+
+.desktop .send-apl-btn {
+  display: inline-flex;
+  height: 40px;
+  padding: 14px 19px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+  border-radius: 50px;
+  background: #001f3f;
+  position: absolute;
+  top: 851px;
+  left: 1165px;
+}
+.desktop .send-apl-txt {
+  color: #fff;
+  text-align: center;
+  font-family: Inter;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  position: relative;
+}
+/* CURRÍCULO */
+.desktop .crcl-txt {
+  color: #000;
+  font-family: Inter;
+  font-size: 21.6px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  position: absolute;
+  top: 133px;
+  left: 100px;
+}
+.desktop .crcl-box {
+  width: 403px;
+  height: 100px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  border: 1px solid #eee;
+  background: #fafafa;
+  position: absolute;
+  top: 169px;
+  left: 100px;
+}
+.desktop .crcl-al {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  position: absolute;
+  top: 15px;
+  left: 19px;
+}
+.desktop .crcl-icon-2 {
+  position: relative;
+  width: 12.5px;
+  height: 12.5px;
+}
+.desktop .crcl-ttl-2 {
+  position: relative;
+  width: 58px;
+  font-family: Inter;
+  font-weight: 500;
+  color: #000000;
+  font-size: 12.5px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+.desktop .role-txt {
+  color: #001f3f;
+  font-family: Inter;
+  font-size: 21.6px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  position: absolute;
+  top: 39px;
+  left: 19px;
+}
+.desktop .exp-txt {
+  color: #001f3f;
+  font-family: Inter;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  position: absolute;
+  top: 65px;
+  left: 19px;
+}
+
+.desktop .anx-box {
+  display: flex;
+  width: 403px;
+  height: 100px;
+  padding: 16px 16px 16px 28px;
+  align-items: center;
+  gap: 22px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  border: 1px solid #eee;
+  background: #fafafa;
+  position: absolute;
+  top: 169px;
+  left: 518px;
+}
+.desktop .anx-txt {
+  color: #001f3f;
+  font-family: Inter;
+  font-size: 25.92px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.desktop .anx-icon {
+  width: 25.92px;
+  height: 25.92px;
+  background-color: #001f3f;
+  border-radius: 17.5px;
+  background-image: url(https://c.animaapp.com/pNNkzp0z/img/fi-rr-plus-small-2.svg);
+  position: relative;
+  background-size: 100% 100%;
+}
+
+/* CARTA DE APRESENTAÇÃO */
+.desktop .letter-txt {
+  color: #000;
+  font-family: Inter;
+  font-size: 21.6px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  position: absolute;
+  top: 309px;
+  left: 100px;
+}
+.desktop .letter-txt-2 {
+  color: #6c6a6a;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  position: absolute;
+  top: 314px;
+  left: 486px;
+}
+.desktop .letter-box {
+  display: flex;
+  width: 1031px;
+  height: 150px;
+  padding: 18px 15px;
+  align-items: flex-start;
+  gap: 10px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  border: 1px solid #eee;
+  background: #fafafa;
+  position: absolute;
+  top: 345px;
+  left: 100px;
+}
+.desktop .letter-box-txt {
+  color: #6c6a6a;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+/* PERGUNTAS */
+.desktop .questions-txt {
+  color: #000;
+  font-family: Inter;
+  font-size: 21.6px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  position: absolute;
+  top: 535px;
+  left: 100px;
+}
+.desktop .question-box {
+  width: 1031px;
+  height: 250px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  border: 1px solid #eee;
+  background: #fafafa;
+  position: absolute;
+  top: 571px;
+  left: 100px;
+}
+.desktop .question-ttl {
+  color: #000;
+  font-family: Inter;
+  font-size: 21.6px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  position: absolute;
+  top: 20px;
+  left: 19px;
+}
+
+.desktop .frame {
+  display: flex;
+  width: 150px;
+  height: 21px;
+  justify-content: center;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-radius: 50px;
+  background-color: #f5f5f5;
+  position: absolute;
+  top: 24px;
+  left: 143px;
+}
+.desktop .num-frame-1 {
+  display: flex;
+  width: 30px;
+  height: 21px;
+  padding: 7px 8px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+  border-radius: 50px;
+  background: #3498db;
+}
+.desktop .num-txt-1 {
+  color: #fff;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.desktop .num-frame-2 {
+  display: flex;
+  width: 30px;
+  height: 21px;
+  padding: 7px 8px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+  border-radius: 50px;
+  background: #f5f5f5;
+}
+.desktop .num-txt-2 {
+  color: #ababab;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.desktop .num-frame-3 {
+  display: flex;
+  width: 30px;
+  height: 21px;
+  padding: 7px 8px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+  border-radius: 50px;
+  background: #f5f5f5;
+}
+.desktop .num-txt-3 {
+  color: #ababab;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.desktop .num-frame-4 {
+  display: flex;
+  width: 30px;
+  height: 21px;
+  padding: 7px 8px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+  border-radius: 50px;
+  background: #f5f5f5;
+}
+.desktop .num-txt-4 {
+  color: #ababab;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.desktop .num-frame-5 {
+  display: flex;
+  width: 30px;
+  height: 21px;
+  padding: 7px 8px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+  border-radius: 50px;
+  background: #f5f5f5;
+}
+.desktop .num-txt-5 {
+  color: #ababab;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.desktop .question-name {
+  color: #000;
+  font-family: Inter;
+  font-size: 21.6px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  position: absolute;
+  top: 63px;
+  left: 19px;
+}
+.desktop .alt-1 {
+  display: inline-flex;
+  height: 32px;
+  padding: 16px;
+  align-items: center;
+  gap: 14px;
+  flex-shrink: 0;
+  position: absolute;
+  top: 99px;
+  left: 19px;
+}
+.desktop .alt-check-1 {
+  width: 15px;
+  height: 15px;
+  flex-shrink: 0;
+  border-radius: 3px;
+  border: 1.75px solid #ababab;
+  background: #fff;
+}
+.desktop .alt-txt-1 {
+  color: #ababab;
+  text-align: center;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.desktop .alt-2 {
+  display: inline-flex;
+  height: 32px;
+  padding: 16px;
+  align-items: center;
+  gap: 14px;
+  flex-shrink: 0;
+  position: absolute;
+  top: 131px;
+  left: 19px;
+}
+.desktop .alt-check-2 {
+  width: 15px;
+  height: 15px;
+  flex-shrink: 0;
+  border-radius: 3px;
+  border: 1.75px solid #ababab;
+  background: #fff;
+}
+.desktop .alt-txt-2 {
+  color: #ababab;
+  text-align: center;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.desktop .alt-3 {
+  display: inline-flex;
+  height: 32px;
+  padding: 16px;
+  align-items: center;
+  gap: 14px;
+  flex-shrink: 0;
+  position: absolute;
+  top: 163px;
+  left: 19px;
+}
+.desktop .alt-check-3 {
+  width: 15px;
+  height: 15px;
+  flex-shrink: 0;
+  border-radius: 3px;
+  border: 1.75px solid #ababab;
+  background: #fff;
+}
+.desktop .alt-txt-3 {
+  color: #ababab;
+  text-align: center;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.desktop .alt-4 {
+  display: inline-flex;
+  height: 32px;
+  padding: 16px;
+  align-items: center;
+  gap: 14px;
+  flex-shrink: 0;
+  position: absolute;
+  top: 195px;
+  left: 19px;
+}
+.desktop .alt-check-4 {
+  width: 15px;
+  height: 15px;
+  flex-shrink: 0;
+  border-radius: 3px;
+  border: 1.75px solid #ababab;
+  background: #fff;
+}
+.desktop .alt-txt-4 {
+  color: #ababab;
+  text-align: center;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.desktop .next-question-btn {
+  display: inline-flex;
+  height: 40px;
+  padding: 14px 19px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+  border-radius: 50px;
+  background: #3498db;
+  position: absolute;
+  top: 187px;
+  left: 840px;
+}
+.desktop .next-question-txt {
+  position: relative;
+  color: #fff;
+  text-align: center;
+  font-family: Inter;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
