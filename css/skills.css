@@ -325,6 +325,19 @@
   top: 0px;
   left: 0px;
 }
+.desktop .add-competence-frame-1 {
+  display: flex;
+  width: 433px;
+  padding: 16px;
+  align-items: center;
+  gap: 14px;
+  border-radius: 10px;
+  border: 1px solid #eee;
+  background: #fafafa;
+  position: absolute;
+  top: 162px;
+  left: 31px;
+}
 .competence-frame-1 {
   display: flex;
   width: 617px;
